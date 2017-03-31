@@ -1,0 +1,18 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:shortcutId="task"
+        android:shortcutLongLabel="@string/add_task_shortcut_long_label1"
+        android:shortcutShortLabel="@string/add_task_shortcut_short_label1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.appshortcuts.AddTask"
+            android:targetPackage="com.appshortcuts" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

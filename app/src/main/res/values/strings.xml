@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppShortcuts</string>
+
+    <string name="add_task_shortcut_short_label1">Add Task</string>
+    <string name="add_task_shortcut_long_label1">Add new Task</string>
+
+    <string name="tasks_short">Tasks</string>
+</resources>
